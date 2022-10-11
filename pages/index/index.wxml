@@ -1,0 +1,7 @@
+<view class="indexContainer">
+  <image class="avatarUrl" src="/static/image/jay.jpg"></image>
+  <text class="userName" >{{msg}}</text>
+  <view class="goStudy" catch:tap="toLogs">
+    <text>hello world</text>
+  </view>
+</view>
