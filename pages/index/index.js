@@ -6,9 +6,7 @@ Page({
      */
     data: {
         msg: "初始化数据",
-        aaa: "啊啊啊啊",
-        bbb: "八八八八",
-        ccc: "踩踩踩"
+        userInfo : {}
         
     },
 
@@ -32,6 +30,16 @@ Page({
         });
     },
 
+    //获取用户信息的回调
+    handleGetUserInfo(res){
+        console.log (res);
+        if(res.detail.userInfo){
+        //修改userInfo的状态数据
+            this.setData({
+                userInfo : res.detail.userInfo
+            })
+        }
+    },
      
 
 })
