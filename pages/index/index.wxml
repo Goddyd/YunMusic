@@ -1,8 +1,0 @@
-<view class="indexContainer">
-  <image class="avatarUrl" src="{{userInfo.avatarUrl}}"></image>
-  <button bindgetuserinfo="handleGetUserInfo" open-type="getUserInfo"> 获取用户信息</button>
-  <text class="userName" >{{userInfo.nickname}}</text>
-  <view class="goStudy" catch:tap="toLogs">
-    <text>hello world</text>
-  </view>
-</view>
