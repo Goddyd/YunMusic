@@ -3,5 +3,6 @@
     "projectname": "YunMusic",
     "setting": {
         "compileHotReLoad": true
-    }
+    },
+    "libVersion": "2.26.2"
 }
