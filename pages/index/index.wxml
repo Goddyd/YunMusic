@@ -35,6 +35,45 @@
             <text>直播</text>
         </view>
     </view>
+
+    <!-- 推荐歌曲区域 -->
+    <view class="recommendContainer" >
+        <view class="header">
+            <text class="title">推荐歌曲</text>
+            <view>
+                <text>为你精心推荐</text>
+                <text class="more">查看更多</text> 
+            </view>
+        </view>
+    </view>
+
+    <!-- 滚动视图 -->
+    <scroll-view class="scrollStyle" enable-flex="{{true}}" scroll-x="{{true}}">
+        <view class="scrollItem" >
+            <image src="/static/images/jay.jpeg" class="scollItemImage"></image>
+            <text >我喜欢周杰伦哒哒哒哒哒哒嗒嗒嗒</text>
+        </view>
+        <view class="scrollItem" >
+            <image src="/static/images/jay.jpeg" class="scollItemImage"></image>
+            <text>我喜欢周杰伦</text>
+        </view>
+        <view class="scrollItem" >
+            <image src="/static/images/jay.jpeg" class="scollItemImage"></image>
+            <text>我喜欢周杰伦</text>
+        </view>
+        <view class="scrollItem" >
+            <image src="/static/images/jay.jpeg" class="scollItemImage"></image>
+            <text>我喜欢周杰伦</text>
+        </view>
+        <view class="scrollItem" >
+            <image src="/static/images/jay.jpeg" class="scollItemImage"></image>
+            <text>我喜欢周杰伦</text>
+        </view>
+    </scroll-view>
+
+    <view>
+        <text> 结束了</text>
+    </view>
 </view>
 
 
